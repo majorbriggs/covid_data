@@ -51,7 +51,7 @@ countries_plot.set_title("Confirmed cases per million")
 countries_plot.legend()
 
 # rysowanie dziennych nowych przypadkow
-daily = calculate_daily("poland")
+daily = calculate_daily("germany")
 daily_plot.set_title("Daily new cases")
 x_axis = list(range(len(daily)))
 daily_plot.bar(x_axis, daily, label="Poland")
